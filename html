@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Little Date Invitation ♡</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  background: #f7eee8;
+  color: #382c29;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.invitation {
+  width: 100%;
+  max-width: 560px;
+  padding: 55px 45px 40px;
+  text-align: center;
+  background: #fffaf6;
+  border: 1px solid #eadbd3;
+  box-shadow: 0 20px 60px rgba(76,47,40,.12);
+  position: relative;
+  overflow: hidden;
+}
+
+.top-note, .eyebrow, .detail-label, .footer {
+  letter-spacing: 3px;
+  font-size: 9px;
+  font-weight: 700;
+}
+
+.top-note {
+  color: #8d7770;
+}
+
+.flower {
+  margin: 25px 0;
+  font-size: 30px;
+  color: #a65f58;
+}
+
+.eyebrow {
+  color: #a65f58;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font: 500 clamp(48px, 10vw, 70px)/1 'Playfair Display', serif;
+  letter-spacing: -2px;
+}
+
+h1 em {
+  color: #a65f58;
+}
+
+.intro {
+  max-width: 350px;
+  margin: 25px auto 35px;
+  font-size: 13px;
+  color: #8d7770;
+  line-height: 1.9;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid #eadbd3;
+  border-left: 1px solid #eadbd3;
+  text-align: left;
+}
+
+.detail {
+  padding: 20px 15px;
+  border-right: 1px solid #eadbd3;
+  border-bottom: 1px solid #eadbd3;
+  min-height: 85px;
+}
+
+.detail-label {
+  display: block;
+  color: #a65f58;
+  font-size: 8px;
+  margin-bottom: 10px;
+}
+
+.detail strong {
+  font: 500 15px 'Playfair Display', serif;
+}
+
+.closing {
+  margin: 30px 0 20px;
+  color: #8d7770;
+  font: italic 15px 'Playfair Display', serif;
+}
+
+.rsvp {
+  display: inline-block;
+  padding: 15px 30px;
+  background: #a65f58;
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  transition: .3s;
+}
+
+.rsvp:hover {
+  background: #874943;
+  transform: translateY(-3px);
+}
+
+.signoff {
+  margin: 22px 0 35px;
+  color: #a65f58;
+  font: italic 17px 'Playfair Display', serif;
+}
+
+.footer {
+  color: #b29d94;
+  font-size: 8px;
+}
+
+@media(max-width: 450px) {
+  .invitation {
+    padding: 40px 22px;
+  }
+
+  .detail {
+    padding: 15px 10px;
+  }
+
+  .detail strong {
+    font-size: 13px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<main class="invitation">
+
+  <div class="top-note">
+    DATE INVITATION <p></p>
+  </div>
+
+  <div class="flower">✳</div>
+
+  <p class="eyebrow"></p>
+
+  <h1>
+ ARJAY + WILLIAM<br>
+    <em>2nd date.</em>
+  </h1>
+
+  <p class="intro">
+    Hi Babe, I’m excited for all 
+    the our dates together— 
+    Our silly conversations. I love youn so much. I
+     hope being with me feels like home. Thank you babe for being there 
+     all the time. 
+  </p> 
+
+  <div class="details">
+
+    <div class="detail">
+      <span class="detail-label">THE PLAN</span>
+      <strong>Friday MOVIE</strong>
+    </div>
+
+    <div class="detail">
+      <span class="detail-label">THE DATE</span>
+      <strong>NOVEMBER 20,2026</strong>
+    </div>
+
+    <div class="detail">
+      <span class="detail-label">THE TIME</span>
+      <strong>6:00 PM</strong>
+    </div>
+
+    <div class="detail">
+      <span class="detail-label">THE PLACE</span>
+      <strong>Somewhere special</strong>
+    </div>
+
+  </div>
+
+  <p class="closing">
+    Just bring yourself. I'll take care of the rest.
+  </p>
+
+  <a class="rsvp"
+     href="mailto:you@example.com?subject=Date%20invitation">
+    TICKET ↗
+  </a>
+
+  <p class="signoff">
+    I LOVE YOU BABY♡
+  </p>
+
+  <div class="footer">
+    MADE WITH A LITTLE EXTRA THOUGHT
+  </div>
+
+</main>
+
+</body>
+</html>
